@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="137235" started-at="2022-10-25T19:27:01 IST" finished-at="2022-10-25T19:29:18 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="137235" started-at="2022-10-25T19:27:01 IST" finished-at="2022-10-25T19:29:18 IST">
+      <class name="com.actitime.testscripts.tc">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.actitime.testscripts.tc@614ddd49]" name="test" duration-ms="23446" started-at="2022-10-25T19:27:01 IST" finished-at="2022-10-25T19:27:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.actitime.testscripts.tc -->
+      <class name="com.actitime.testscripts.VerifyHomepageTitle">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.actitime.testscripts.VerifyHomepageTitle@2781e022]" name="setup" is-config="true" duration-ms="13283" started-at="2022-10-25T19:27:24 IST" finished-at="2022-10-25T19:27:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginP()[pri:0, instance:com.actitime.testscripts.VerifyHomepageTitle@2781e022]" name="loginP" is-config="true" duration-ms="9525" started-at="2022-10-25T19:27:37 IST" finished-at="2022-10-25T19:27:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginP -->
+        <test-method status="PASS" signature="homepage()[pri:0, instance:com.actitime.testscripts.VerifyHomepageTitle@2781e022]" name="homepage" duration-ms="17" started-at="2022-10-25T19:27:47 IST" finished-at="2022-10-25T19:27:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.actitime.testscripts.VerifyHomepageTitle@2781e022]" name="logout" is-config="true" duration-ms="5341" started-at="2022-10-25T19:27:47 IST" finished-at="2022-10-25T19:27:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.actitime.testscripts.VerifyHomepageTitle@2781e022]" name="teardown" is-config="true" duration-ms="1378" started-at="2022-10-25T19:27:52 IST" finished-at="2022-10-25T19:27:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.actitime.testscripts.VerifyHomepageTitle -->
+      <class name="com.actitime.testscripts.CreateNewCustomer">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.actitime.testscripts.CreateNewCustomer@57e1b0c]" name="setup" is-config="true" duration-ms="13653" started-at="2022-10-25T19:27:54 IST" finished-at="2022-10-25T19:28:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginP()[pri:0, instance:com.actitime.testscripts.CreateNewCustomer@57e1b0c]" name="loginP" is-config="true" duration-ms="9562" started-at="2022-10-25T19:28:07 IST" finished-at="2022-10-25T19:28:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginP -->
+        <test-method status="PASS" signature="createCustomer()[pri:1, instance:com.actitime.testscripts.CreateNewCustomer@57e1b0c]" name="createCustomer" duration-ms="19468" started-at="2022-10-25T19:28:17 IST" finished-at="2022-10-25T19:28:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.actitime.testscripts.CreateNewCustomer@57e1b0c]" name="logout" is-config="true" duration-ms="6502" started-at="2022-10-25T19:28:36 IST" finished-at="2022-10-25T19:28:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="loginP()[pri:0, instance:com.actitime.testscripts.CreateNewCustomer@57e1b0c]" name="loginP" is-config="true" duration-ms="9442" started-at="2022-10-25T19:28:43 IST" finished-at="2022-10-25T19:28:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginP -->
+        <test-method status="PASS" signature="createCustomer1()[pri:2, instance:com.actitime.testscripts.CreateNewCustomer@57e1b0c]" name="createCustomer1" duration-ms="18492" started-at="2022-10-25T19:28:52 IST" finished-at="2022-10-25T19:29:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomer1 -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.actitime.testscripts.CreateNewCustomer@57e1b0c]" name="logout" is-config="true" duration-ms="5967" started-at="2022-10-25T19:29:11 IST" finished-at="2022-10-25T19:29:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.actitime.testscripts.CreateNewCustomer@57e1b0c]" name="teardown" is-config="true" duration-ms="1107" started-at="2022-10-25T19:29:17 IST" finished-at="2022-10-25T19:29:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.actitime.testscripts.CreateNewCustomer -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
